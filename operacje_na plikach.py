@@ -16,3 +16,13 @@ with open(nazwa_nowego_pliku, 'x') as f_output:
 
 wynik = "wzystko ok" if nazwa_nowego_pliku == "poprawna nazwa" else "błąd"
 print(wynik)
+
+
+wynik = 15
+match(wynik):
+    case 2:
+        print("to dwójka")
+    case 3:
+        print("to trójka")
+    case _:
+        print("nie ma takiej liczby")
