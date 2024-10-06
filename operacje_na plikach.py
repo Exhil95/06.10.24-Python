@@ -26,3 +26,4 @@ match(wynik):
         print("to trójka")
     case _:
         print("nie ma takiej liczby")
+        
