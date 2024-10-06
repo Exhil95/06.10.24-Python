@@ -9,8 +9,8 @@ for i in lista2:
         
 def wiekszyOX(iloscElelmentow, oIleWiekszy):
     lista =  []
-    for ktoraIteracja in range(0,  iloscElelmentow, oIleWiekszy):
+    for ktoraIteracja in range(0,  iloscElelmentow*oIleWiekszy, oIleWiekszy):
         lista.append(ktoraIteracja)
-    print(lista)
+    print(lista, len(lista))
 
 wiekszyOX(21, 2)
