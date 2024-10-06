@@ -6,3 +6,11 @@ for i in lista1:
     
 for i in lista2:
     print(i)
+        
+def wiekszyOX(iloscElelmentow, oIleWiekszy):
+    lista =  []
+    for ktoraIteracja in range(0,  iloscElelmentow, oIleWiekszy):
+        lista.append(ktoraIteracja)
+    print(lista)
+
+wiekszyOX(21, 2)
