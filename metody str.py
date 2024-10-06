@@ -47,7 +47,7 @@ inw9 = inwokacja.rstrip('!')
 print(inw9)
 print()
 
-inw10 = " ".join(inwokacja)
+inw10 = " ".join([inwokacja, 'a'])
 print(inw10)
 print()
 
