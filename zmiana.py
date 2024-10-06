@@ -11,6 +11,6 @@ if a == '0':
     inwokacja = inwokacja.strip(z)
 else: 
     inwokacja = inwokacja.replace(y, a)
-    inwokacja  = inwokacja.replace(z, a)
+    inwokacja = inwokacja.replace(z, a)
     
 print(inwokacja)
