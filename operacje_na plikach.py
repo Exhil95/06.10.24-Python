@@ -1,5 +1,3 @@
-from math import pi, e
-
 # sciezkaPliku = "myInput.txt"
 bezwzglednaSciezka = "C:\\Users\\dkucz\\OneDrive\\Pulpit\\kurs python\\06.10.24 Python\\myInput.txt"
 with open(bezwzglednaSciezka) as f:
