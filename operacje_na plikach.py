@@ -13,3 +13,6 @@ print(kopia)
 nazwa_nowego_pliku = bezwzglednaSciezka.replace('myInput', 'myOutput')
 with open(nazwa_nowego_pliku, 'x') as f_output:
     f_output.writelines(kopia)
+
+wynik = "wzystko ok" if nazwa_nowego_pliku == "poprawna nazwa" else "błąd"
+print(wynik)
