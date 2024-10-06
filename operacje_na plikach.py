@@ -13,3 +13,5 @@ print(kopia)
 nazwa_nowego_pliku = bezwzglednaSciezka.replace('myInput', 'myOutput')
 with open(nazwa_nowego_pliku, 'x') as f_output:
     f_output.writelines(kopia)
+
+print("wazelina")
