@@ -14,3 +14,4 @@ elif  25 >= bmi < 29:
     print("Nadwaga")
 else :
     print("Otyłość")
+    

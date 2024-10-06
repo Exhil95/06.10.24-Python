@@ -50,4 +50,3 @@ print()
 inw10 = " ".join([inwokacja, 'a'])
 print(inw10)
 print()
-
