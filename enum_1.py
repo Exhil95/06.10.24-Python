@@ -5,9 +5,11 @@ class  RodzajSilnika(Enum):
     Elektryczny = 2
     Gazowy = 3
     
-silnik = input("Podaj rodzaj swojego silnika: ") 
+# silnik = input("Podaj rodzaj swojego silnika: ") 
 
-if RodzajSilnika[silnik.capitalize()] == RodzajSilnika.Spalinowy:
-    print("Twój silnik jest nieekologiczny")
-else:
-    print("Twój silnik jest ekologiczny") 
+#  if RodzajSilnika[silnik.capitalize()] == RodzajSilnika.Spalinowy:
+#      print("Twój silnik jest nieekologiczny")
+#  else:
+#      print("Twój silnik jest ekologiczny") 
+
+print(RodzajSilnika.Elektryczny)
