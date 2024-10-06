@@ -3,7 +3,6 @@ lista2 =  ["Grzegorz", "Hieronim", "Inga", "Jolanta", "Karol", "Leszek", 1, 2, 4
 litery = [x for x in lista2 if isinstance(x, str)]
 cyfry = [x for x in lista2 if isinstance(x, int)]
 
-
 sortuj_litery = sorted(litery)
 sortuj_cyfry = sorted(cyfry)
 
