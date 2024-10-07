@@ -13,3 +13,6 @@ print(x)
 print(tekst)
 
 print("no i chuj")
+
+
+# elo
