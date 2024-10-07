@@ -11,3 +11,5 @@ for litera in tekst:
 
 print(x)
 print(tekst)
+
+print("no i chuj")
