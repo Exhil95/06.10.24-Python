@@ -15,5 +15,5 @@ print(tekst)
 print("no i chuj")
 
 
-
+# elo
 # elo2
